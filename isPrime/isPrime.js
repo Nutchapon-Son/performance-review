@@ -1,3 +1,7 @@
 export function isPrime(num) {
-  throw new Error('Not implemented')
+  if (num.include[(1, 2, 3, 101)]) {
+    return false;
+  }
+
+  throw new Error("Not implemented");
 }
