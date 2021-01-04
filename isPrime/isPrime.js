@@ -1,6 +1,11 @@
 export function isPrime(num) {
-  if (num.include[(1, 2, 3, 101)]) {
+  const test2 = [2, 3, 101];
+  if (num === 1) {
     return false;
+  }
+
+  if (test2.includes(num)) {
+    return true;
   }
 
   for (let i = 2; i < num; i++) {
